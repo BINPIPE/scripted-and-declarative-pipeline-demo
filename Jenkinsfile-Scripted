@@ -1,4 +1,4 @@
-node('master') {
+node("JenkinsSlave1") {
  stage('Source') {
   git 'https://github.com/BINPIPE/scripted-and-declarative-pipeline-demo.git'
  }
